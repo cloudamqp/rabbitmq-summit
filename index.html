@@ -105,10 +105,16 @@ footer-logo: /img/logo-pink-2022.png
             console.log('Order complete!');
         };
 
+        var clientId;
+        ga(function(tracker){
+        clientId = tracker.get('clientId');
+        });
+
         window.EBWidgets.createWidget({
             // Required
             widgetType: 'checkout',
             eventId: '346366219687',
+            googleAnalyticsClientId: clientId,
             iframeContainerId: 'eventbrite-widget-container-346366219687',
 
             // Optional
@@ -137,10 +143,16 @@ footer-logo: /img/logo-pink-2022.png
         console.log('Order complete!');
     };
 
+    var clientId;
+    ga(function(tracker){
+    clientId = tracker.get('clientId');
+    });
+
     window.EBWidgets.createWidget({
         // Required
         widgetType: 'checkout',
         eventId: '346259069197',
+        googleAnalyticsClientId: clientId,
         iframeContainerId: 'eventbrite-widget-container-346259069197',
 
         // Optional
