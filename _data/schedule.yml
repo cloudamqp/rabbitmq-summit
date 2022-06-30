@@ -155,3 +155,14 @@
   template: two
   co-speaker: Michal Kuratczyk
   co-role: Staff Engineer
+- start: "10:30"
+  etime: "11:15"
+  keynote: false
+  title: "TBA"
+  speaker: Iliia Khaprov
+  role: Software Engineer
+  company: RabbitMQ Team, VMware
+  abstract: >-
+    In this talk we explore RabbitMQ as a centerpiece of serverless/cloud technologies.
+    Using Knative RabbitMQ integration as an example we will learn about Serverless, Cloudevents ecosystem, Observability frameworks and OpenTelemtry Messaging Semantic Conventions.
+  template: two
