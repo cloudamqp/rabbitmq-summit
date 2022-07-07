@@ -319,17 +319,65 @@ footer-logo: /img/logo-pink-2022.png
           </h3>
         </div>
       </div>
-      <div>
-        <div title="Whova event and conference app" id="whova-agendawidget">
-          <p id="whova-loading">Loading...</p>
-        </div>
-        <script src="https://whova.com/static/frontend/agenda_webpage/js/embedagenda.js?eid=codeb1_202105&host=https://whova.com" type="text/javascript" id="embeded-agenda-script">
-        </script>
-        <div id="whova-wrap"> Powered By <a class="brandlink" target="_blank" href="https://whova.com"><b>Whova</b></a>
-          <div id="whova-mgm"><a href="https://whova.com/virtual-conference-platform/" id="whova-emslink" target="_blank"> Interactive virtual events </a>
-          </div>
-        </div>
-        <img style="display:none" src="https://whova.com/xems/apis/get_whova_tracking_image/?event_id=codeb1_202105&track_id=agenda_webpage_added" />
+      <div class="schedule">
+      {% for activity in site.data.schedule %}
+        {% case activity.template %}
+          {% when 'group' %}
+            {% if activity.start %}
+              <div class="time">
+                <h4 class="text-primary text-uppercase text-left">
+                  <time datetime="2019-11-04T{{ activity.start }}">{{ activity.start }}{% if activity.etime %}-{{ activity.etime }}{% endif %}</time>
+                </h4>
+              </div>
+            {% endif %}
+            <div class="group-event">
+              <h4 class="text-uppercase">{{ activity.title }}</h4>
+            </div>
+          {% when 'alone' %}
+            {% if activity.start %}
+              <div class="time">
+                <h4 class="text-primary text-uppercase text-left">
+                  <time datetime="2019-11-04T{{ activity.start }}">{{ activity.start }}{% if activity.etime %}-{{ activity.etime }}{% endif %}</time>
+                </h4>
+              </div>
+            {% endif %}
+            <div class="alone column-border">
+              <h4 class="text-uppercase mb-2">{{ activity.title }}</h4>
+              {% if activity.speaker %}
+                <p class="mb-lg-4">
+                  <em>
+                    {{ activity.speaker }}{% if activity.co-speaker %} &amp; {{ activity.co-speaker }}{% endif %}
+                  </em>
+                </p>
+              {% endif %}
+              {% if activity.abstract %}
+                <p>{{ activity.abstract }}</p>
+              {% endif %}
+            </div>
+            <div class="two">&nbsp;</div>
+          {% when 'two' %}
+            {% if activity.start %}
+                <div class="time">
+                  <h4 class="text-primary text-uppercase text-left">
+                    <time datetime="2019-11-04T{{ activity.start }}">{{ activity.start }}{% if activity.etime %}-{{ activity.etime }}{% endif %}</time>
+                  </h4>
+                </div>
+              {% endif %}
+              <div class="two{% if activity.start %} column-border{% endif %}">
+                <h4 class="text-uppercase mb-2">{{ activity.title }}</h4>
+                {% if activity.speaker %}
+                <p class="mb-lg-4">
+                  <em>
+                    {{ activity.speaker }}{% if activity.co-speaker %} &amp; {{ activity.co-speaker }}{% endif %}
+                  </em>
+                </p>
+              {% endif %}
+                {% if activity.abstract %}
+                  <p>{{ activity.abstract }}</p>
+                {% endif %}
+              </div>
+        {% endcase %}
+      {% endfor %}
       </div>
     </div>
   </section>
