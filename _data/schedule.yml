@@ -1,10 +1,10 @@
-- start: "08:00"
-  etime: "09:00"
+- start: "8:00"
+  etime: "9:00"
   title: "Registration"
   template: group
 - start: "9:00"
   etime: "9:15"
-  title: "Welcome & introduction"
+  title: "Welcome and introduction"
   template: alone
 - start: "9:15"
   etime: "10:05"
