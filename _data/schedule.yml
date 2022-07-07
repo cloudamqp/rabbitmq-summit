@@ -1,14 +1,31 @@
+- start: "08:00"
+  etime: "09:00"
+  title: "Registration"
+  template: group
 - start: "9:00"
-  etime: "10:00"
+  etime: "9:15"
+  title: "Welcome & introduction"
+  template: alone
+- start: "9:15"
+  etime: "10:05"
   keynote: true
-  title: "TBA"
+  title: "Keynote: TBA"
   speaker: Lukas Larsson
   role: Erlang VM Core Committer
   company: Erlang Solutions
   abstract:
-  template: one
-- start: "10:30"
-  etime: "11:15"
+  template: alone
+- start: "10:10"
+  etime: "10:30"
+  keynote: false
+  title: "Update from RabbitMQ team"
+  template: alone
+- start: "10:00"
+  etime: "10:30"
+  title: "Break"
+  template: group
+- start: "15:30"
+  etime: "15:50"
   keynote: false
   title: "Fun, interesting and common RabbitMQ use cases"
   speaker: Lovisa Johansson
@@ -17,8 +34,8 @@
   abstract: >-
     We as human beings have always sought ways to communicate, even when there have been distances between us. The same need exists in the computer world - a method to send, receive, and create the message itself. Despite that, I often get the question; “Where would a message queue fit in my architecture?” Get ready for an answer to that question from the lens of common RabbitMQ use cases that are understandable no matter where you are or what language you’re speaking.
   template: two
-- start: "10:30"
-  etime: "11:15"
+- start: "14:10"
+  etime: "14:50"
   keynote: false
   title: "Zero Trust RabbitMQ with HashiCorp Vault"
   speaker: Rob Barnes
@@ -27,8 +44,8 @@
   abstract: >-
       TBA
   template: two
-- start: "10:30"
-  etime: "11:15"
+- start: "12:30"
+  etime: "13:10"
   keynote: false
   title: "An update on Khepri adoption in RabbitMQ"
   speaker: Michael Klishin
@@ -41,8 +58,8 @@
   template: two
   co-speaker: Diana Parra Corbacho
   co-role: Staff Engineer
-- start: "10:30"
-  etime: "11:15"
+- start: "15:00"
+  etime: "15:20"
   keynote: false
   title: "Management, Monitoring and Tracing in RabbitMQ"
   speaker: Rohini Senthil
@@ -51,8 +68,8 @@
   abstract: >-
     This session presents a walkthrough of RabbitMQ's Management Plugin and Firehose Tracer, highlighting how they help in addressing the difficulties faced while introducing external monitoring, by providing management and tracing capability in RabbitMQ nodes. As this capability is often crucial to the overall development and debugging process, this session will also showcase a live-coding on how they can be leveraged in building custom tools for monitoring & tracing, tailored to an application’s need. To demonstrate the potential of building custom tools the session will close with a small demo of Rabbitrace, a custom management extension built by the speaker.
   template: two
-- start: "10:30"
-  etime: "11:15"
+- start: "11:40"
+  etime: "12:20"
   keynote: false
   title: "Write fast, reliable, and secure clients!"
   speaker: Carl Hörberg
@@ -63,8 +80,8 @@
 
     In this presentation, Carl talks about how to write fast clients that are also reliable and secure. He also tells you why he decided to write some new libraries.
   template: two
-- start: "10:30"
-  etime: "11:15"
+- start: "12:30"
+  etime: "13:10"
   keynote: false
   title: "How We Rabbit at AWeber"
   speaker: Gavin Roy
@@ -73,8 +90,8 @@
   abstract: >-
     RabbitMQ is at the heart of AWeber's event-based distributed architecture, responsible for the delivery of over 75,000 messages per second on average. In this talk we will explore how we've use RabbitMQ in production over the last 10 years, including topologies, standards for use, monitoring, day-to-day operational management, and other technologies we use in conjunction to our RabbitMQ usage.
   template: two
-- start: "10:30"
-  etime: "11:15"
+- start: "11:40"
+  etime: "12:20"
   keynote: false
   title: "How to Safely and Reliably Upgrade Your RabbitMQ Cluster While Maintaining 100% Uptime"
   speaker: Stefan Moser
@@ -83,10 +100,10 @@
   abstract:
     The RabbitMQ team releases new features, bug fixes and security patches at a blistering pace, but *you* have to upgrade your cluster to take advantage of all the awesome new value. Upgrading a RabbitMQ cluster can be a harrowing adventure full of pitfalls and danger lurking around every corner. But fear not, you are not alone! Based on the experience of keeping a large fleet of RabbitMQ clusters up-to-date and running the latest version of RabbitMQ, we’ll walk through all of the steps that you can take to safely, reliably and triumphantly upgrade your RabbitMQ cluster, all while maintaining 100% uptime!
   template: two
-- start: "10:30"
-  etime: "11:15"
+- start: "16:50"
+  etime: "17:40"
   keynote: true
-  title: "Quorum Queues: a retrospective"
+  title: "Keynote: Quorum Queues: a retrospective"
   speaker: Karl Nilsson
   role: RabbitMQ core team member
   company: VMware
@@ -94,9 +111,9 @@
     Quorum Queues were release in RabbitMQ 3.8 in October 2019 and in 3.10 received a whole bunch of requested features such as message TTL and at-least-once dead lettering.
 
     This session will look back at the history of Quorum Queue development and look at the various design decisions that were taken and discuss what worked and what didn't and what the future may look like.
-  template: one
-- start: "10:30"
-  etime: "11:15"
+  template: alone
+- start: "10:50"
+  etime: "11:30"
   keynote: false
   title: "What's New in RabbitMQ Streams?"
   speaker: Arnaud Cogoluègnes
@@ -106,8 +123,8 @@
     RabbitMQ 3.9 introduced streams, a new log-type data structure. What is the state of RabbitMQ Streams after one year of existence? Feedback from users helped stabilize and optimize it. The ecosystem grew with new client libraries in several programming languages. But streams are far from feature-complete: super streams, to scale out publishing and consuming, and single active consumer, to handle consumer concurrency, are the two major features coming up.
     Join this session to find out about the present and future of RabbitMQ Streams!
   template: two
-- start: "10:30"
-  etime: "11:15"
+- start: "14:10"
+  etime: "14:50"
   keynote: false
   title: "Pushing RabbitMQ to the limit"
   speaker: Gabor Olah
@@ -116,8 +133,8 @@
   abstract: >-
     One of the most frequent questions I’m asked about RabbitMQ is whether it can do a specific throughput. My answer is almost always is that it depends. In this talk I will explain what affects RabbitMQ performance through practical examples. I will give a practical introduction to how to use PerfTest, the “official” performance testing tool for RabbitMQ to simulate different workloads over different topologies.
   template: two
-- start: "10:30"
-  etime: "11:15"
+- start: "10:50"
+  etime: "11:30"
   keynote: false
   title: "Managing RabbitMQ Usage at Scale for Bloomberg’s Trading Systems"
   speaker: Andrew Cook
@@ -130,8 +147,8 @@
 
     To solve these and other challenges, we needed a system that could easily coordinate changes to the way large numbers of applications use RabbitMQ. We will share how we did this by developing a configuration system that drives our applications’ interactions with the broker, while maintaining the flexibility of a loosely-coupled system.
   template: two
-- start: "10:30"
-  etime: "11:15"
+- start: "15:00"
+  etime: "15:20"
   keynote: false
   title: "Why does RabbitMQ stop and what can be done about it"
   speaker: Johan Rhodin
@@ -142,8 +159,8 @@
 
     In this talk, Johan will walk you through the most common issues, and how he troubleshoots them, and he will share knowledge gained from mistakes made by us, customers, and the community through his own experience.
   template: two
-- start: "10:30"
-  etime: "11:15"
+- start: "15:30"
+  etime: "15:50"
   keynote: false
   title: "RabbitMQ Performance Improvements"
   speaker: David Ansari
@@ -155,8 +172,8 @@
   template: two
   co-speaker: Michal Kuratczyk
   co-role: Staff Engineer
-- start: "10:30"
-  etime: "11:15"
+- start: "16:00"
+  etime: "16:20"
   keynote: false
   title: "TBA"
   speaker: Iliia Khaprov
@@ -166,3 +183,10 @@
     In this talk we explore RabbitMQ as a centerpiece of serverless/cloud technologies.
     Using Knative RabbitMQ integration as an example we will learn about Serverless, Cloudevents ecosystem, Observability frameworks and OpenTelemtry Messaging Semantic Conventions.
   template: two
+- start: "17:40"
+  etime: "18:00"
+  title: "Closing Remarks"
+  template: alone
+- start: "18:00"
+  title: "Drinks"
+  template: group
