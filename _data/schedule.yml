@@ -160,6 +160,7 @@
   role: Software Engineer
   company: VMware
   abstract: >-
+  template: two
   co-speaker: Michal Kuratczyk
   co-role: Staff Engineer
 - keynote: false
