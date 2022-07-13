@@ -132,7 +132,7 @@
     This session presents a walkthrough of RabbitMQ's Management Plugin and Firehose Tracer, highlighting how they help in addressing the difficulties faced while introducing external monitoring, by providing management and tracing capability in RabbitMQ nodes. As this capability is often crucial to the overall development and debugging process, this session will also showcase a live-coding on how they can be leveraged in building custom tools for monitoring & tracing, tailored to an application’s need. To demonstrate the potential of building custom tools the session will close with a small demo of Rabbitrace, a custom management extension built by the speaker.
   template: two
 - start: "15:30"
-  etime: "16:20"
+  etime: "15:50"
   keynote: false
   title: "RabbitMQ Performance Improvements"
   speaker: David Ansari
@@ -152,6 +152,16 @@
   abstract: >-
     We as human beings have always sought ways to communicate, even when there have been distances between us. The same need exists in the computer world - a method to send, receive, and create the message itself. Despite that, I often get the question; “Where would a message queue fit in my architecture?” Get ready for an answer to that question from the lens of common RabbitMQ use cases that are understandable no matter where you are or what language you’re speaking.
   template: two
+- start: "15:50"
+  etime: "16:00"
+  keynote: false
+  title: "RabbitMQ Performance Improvements (continues)"
+  speaker: David Ansari
+  role: Software Engineer
+  company: VMware
+  abstract: >-
+  co-speaker: Michal Kuratczyk
+  co-role: Staff Engineer
 - keynote: false
   title: "TBA"
   speaker: Iliia Khaprov
