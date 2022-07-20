@@ -152,8 +152,8 @@
   abstract: >-
     We as human beings have always sought ways to communicate, even when there have been distances between us. The same need exists in the computer world - a method to send, receive, and create the message itself. Despite that, I often get the question; “Where would a message queue fit in my architecture?” Get ready for an answer to that question from the lens of common RabbitMQ use cases that are understandable no matter where you are or what language you’re speaking.
   template: two
-- start: "15:50"
-  etime: "16:00"
+- start: "16:00"
+  etime: "16:20"
   keynote: false
   title: "RabbitMQ Performance Improvements (continues)"
   speaker: David Ansari
