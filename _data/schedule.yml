@@ -22,6 +22,11 @@
   etime: "10:30"
   keynote: false
   title: "Update from RabbitMQ team"
+  speaker: Ed Byford
+  company: VMware
+  role: RabbitMQ Product Lead
+  co-speaker: Howard Twine
+  co-role: Senior Product Manager
   template: alone
 - start: "10:30"
   etime: "10:50"
