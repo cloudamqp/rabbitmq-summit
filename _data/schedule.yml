@@ -13,7 +13,7 @@
   speaker: Lukas Larsson
   role: Erlang VM Core Committer
   company: Erlang Solutions
-  abstract: >--
+  abstract: >-
     Erlang is a programming language designed to make it easier to handle many parallel interactions.
     It was originally intended for usage in telecom, but has since spread to messaging, databases, fintech systems, and message brokers such as RabbitMQ.
     Join me as we explore what makes Erlang uniquely suited for solving the problems in these domains, and what RabbitMQ does to leverage its strengths.
