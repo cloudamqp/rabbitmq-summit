@@ -9,11 +9,14 @@
 - start: "9:15"
   etime: "10:05"
   keynote: true
-  title: "Keynote: TBA"
+  title: "Keynote: Erlang powered Rabbits"
   speaker: Lukas Larsson
   role: Erlang VM Core Committer
   company: Erlang Solutions
-  abstract:
+  abstract: >--
+    Erlang is a programming language designed to make it easier to handle many parallel interactions.
+    It was originally intended for usage in telecom, but has since spread to messaging, databases, fintech systems, and message brokers such as RabbitMQ.
+    Join me as we explore what makes Erlang uniquely suited for solving the problems in these domains, and what RabbitMQ does to leverage its strengths.
   template: alone
 - start: "10:10"
   etime: "10:30"
@@ -109,7 +112,9 @@
   role: Senior Developer Advocate
   company: HashiCorp
   abstract: >-
-      TBA
+      Securing RabbitMQ in a Zero Trust environment has multiple layers that need consideration. The first is implementing the principle of least privileged access to RabbitMQ, and the second is ensuring the confidentiality and integrity of application data. Both of which are difficult challenges to solve and introduce substantial operational overheads.
+In this demo-driven talk, I will show how you can use HashiCorp Vault to offset the operational overhead of Identity and Access Management. I will also show you how you can use HashiCorp Vault’s API to implement a simple workflow that offsets the complexity of cryptography to Vault.
+By the end of this talk, you will learn how to configure Vault using Terraform to broker application identity on behalf of RabbitMQ and refactor a simple Go application to implement this authentication workflow. You will also learn how to implement symmetric and asymmetric encryption of your application data before placing it on RabbitMQ message queues.
   template: two
 - start: "15:00"
   etime: "15:20"
