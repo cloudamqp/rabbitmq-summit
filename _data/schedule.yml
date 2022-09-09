@@ -198,10 +198,11 @@
 
     This session will look back at the history of Quorum Queue development and look at the various design decisions that were taken and discuss what worked and what didn't and what the future may look like.
   template: alone
-- start: "17:40"
-  etime: "18:00"
+- start: "17:50"
+  etime: "18:20"
   title: "Lightning Talks"
   template: alone
-- start: "18:00"
+- start: "17:50"
+  etime: "18:50"
   title: "Drinks"
   template: group
