@@ -96,7 +96,7 @@ footer-logo: /img/logo-pink-2022.png
         </h3>
       </div>
     </div>
-    <div id="eventbrite-widget-container-346366219687"></div>
+    <div id="eventbrite-widget-container-423530891297"></div>
 
     <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
@@ -105,20 +105,14 @@ footer-logo: /img/logo-pink-2022.png
             console.log('Order complete!');
         };
 
-        var clientId;
-        ga(function(tracker){
-        clientId = tracker.get('clientId');
-        });
-
         window.EBWidgets.createWidget({
             // Required
             widgetType: 'checkout',
-            eventId: '346366219687',
-            googleAnalyticsClientId: clientId,
-            iframeContainerId: 'eventbrite-widget-container-346366219687',
+            eventId: '423530891297',
+            iframeContainerId: 'eventbrite-widget-container-423530891297',
 
             // Optional
-            iframeContainerHeight: 800,  // Widget height in pixels. Defaults to a minimum of 800px if not provided
+            iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
             onOrderComplete: exampleCallback  // Method called when an order has successfully completed
         });
     </script>
