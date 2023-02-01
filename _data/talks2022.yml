@@ -13,7 +13,7 @@
   youtube: HIMJgekW0Aw
   slideshare: https://drive.google.com/file/d/1HmLp-4wVPyXhhtJC4XG3Gtkk-6TgeeZD/view?usp=share_link
   lecture-img: /img/videos-2022/talk-Ed-Howard.jpg
-- title: 'What's New in RabbitMQ Streams?'
+- title: 'What is New in RabbitMQ Streams?'
   speaker: Arnaud Cogoluègnes
   youtube: aRNUYAeJdOw
   slideshare: https://drive.google.com/file/d/10VCpOShmVMc7V4rnMVnWwnT_YqtB21RC/view?usp=share_link
@@ -21,5 +21,5 @@
 - title: 'Write fast, reliable, and secure clients!'
   speaker: Carl Hörberg
   youtube: cMt7cyLPE_U
-  slideshare: 
+  slideshare:
   lecture-img: /img/videos-2022/talk-Carl-Horberg.png
