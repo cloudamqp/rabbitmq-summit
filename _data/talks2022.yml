@@ -23,3 +23,8 @@
   youtube: cMt7cyLPE_U
   slideshare:
   lecture-img: /img/videos-2022/talk-Carl-Horberg.png
+- title: 'Managing RabbitMQ Usage at Scale for Bloomberg’s Trading Systems'
+  speaker: Andrew Cook
+  youtube: E6YkTsZgaJg
+  slideshare: https://drive.google.com/file/d/1Aju2d6oyD7s4DwgKNIeBA3Os6ISyMYAC/view?usp=share_link
+  lecture-img: /img/videos-2022/talk-Andrew-Cook.png
