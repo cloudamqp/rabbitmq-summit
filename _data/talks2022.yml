@@ -28,3 +28,8 @@
   youtube: E6YkTsZgaJg
   slideshare: https://drive.google.com/file/d/1Aju2d6oyD7s4DwgKNIeBA3Os6ISyMYAC/view?usp=share_link
   lecture-img: /img/videos-2022/talk-Andrew-Cook.png
+- title: 'How to Safely and Reliably Upgrade Your RabbitMQ Cluster While Maintaining 100% Uptime'
+  speaker: Stefan Moser
+  youtube: TKwC2Bhv7h8
+  slideshare: https://drive.google.com/file/d/1OrsLbqG7Ab6PyUy3jrtyZvAHwvw5RmQt/view?usp=share_link
+  lecture-img: /img/videos-2022/talk-stefan-moser.png
