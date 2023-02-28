@@ -51,5 +51,20 @@
 - title: 'Zero Trust RabbitMQ with HashiCorp Vault'
   speaker: Rob Barnes
   youtube: g4D7UPTP7Is
-  slideshare: 
+  slideshare:
   lecture-img: /img/videos-2022/talk-Rob-Barnes.png
+- title: 'Why does RabbitMQ stop and what can be done about it'
+  speaker: Johan Rhodin
+  youtube: sxUyGU-wyEE
+  slideshare:
+  lecture-img: /img/videos-2022/talk-Johan.png
+- title: 'Management, Monitoring and Tracing in RabbitMQ'
+  speaker: Rohini Senthil
+  youtube: QFbOmD_Owqo
+  slideshare:
+  lecture-img: /img/videos-2022/talk-Rohini.png
+- title: 'RabbitMQ Performance Improvements'
+  speaker: David Ansari & Michal Kuratczyk
+  youtube: CRDmKZhYmxw
+  slideshare: https://drive.google.com/file/d/1ZI1qONlhwTfF6B96FHns0dA9dEaRM1us/view?usp=share_link
+  lecture-img: /img/videos-2022/talk-David.png
