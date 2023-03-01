@@ -68,3 +68,13 @@
   youtube: CRDmKZhYmxw
   slideshare: https://drive.google.com/file/d/1ZI1qONlhwTfF6B96FHns0dA9dEaRM1us/view?usp=share_link
   lecture-img: /img/videos-2022/talk-David.png
+- title: 'Fun, interesting and common RabbitMQ use cases'
+  speaker: Lovisa Johansson
+  youtube: 9A7BjeFrppA
+  slideshare: https://drive.google.com/file/d/1H60jt63_7phhyctb0YgJ-Y2ed10Wz8qv/view?usp=sharing
+  lecture-img: /img/videos-2022/talk-Lovisa.png
+- title: 'Approaching Cloud-native RabbitMQ'
+  speaker: Iliia Khaprov
+  youtube: UGdToOA6fqU
+  slideshare:
+  lecture-img: /img/videos-2022/talk-Illia.png
