@@ -1269,3 +1269,25 @@ a.pink:hover {
     }
   }
 }
+
+nav {
+  .btn.btn-lg {
+    font-family: 'space-mono-bold';
+    font-size: 1.2em;
+    &.dropdown-toggle:focus {
+      box-shadow: none;
+    }
+  }
+  .dropdown-menu {
+    border-radius: .5em;
+    background-color: #00ba82;
+    .dropdown-item {
+      font-family: 'space-mono-bold';
+      font-size: 1em;
+      &.active {
+        background-color: #025139;
+      }
+    }
+  }
+}
+
