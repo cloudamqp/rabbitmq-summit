@@ -1273,7 +1273,8 @@ a.pink:hover {
 nav {
   .btn.btn-lg {
     font-family: 'space-mono-bold';
-    font-size: 1.2em;
+    font-size: .8em;
+    text-transform: uppercase;
     &.dropdown-toggle:focus {
       box-shadow: none;
     }
