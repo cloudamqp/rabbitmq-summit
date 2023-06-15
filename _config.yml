@@ -1,10 +1,10 @@
 # Site settings
 title: RabbitMQ summit
 email: info@rabbitmqsummit.com
-name: RabbitMQ Summit
+name: RabbitMQ Summit Archive
 description: >
-  The first RabbitMQ Summit brings together RabbitMQ users and developers from around the world.
-  Learn from speakers and keynotes on what’s happening in and around RabbitMQ.
+  Watch lectures from previous years at the RabbitMQ Summit.
+  Learn from speakers and keynotes in our video archive.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://archive.rabbitmqsummit.com
 
