@@ -6,7 +6,7 @@ description: >
   Watch lectures from previous years at the RabbitMQ Summit.
   Learn from speakers and keynotes in our video archive.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://archive.rabbitmqsummit.com
+url: https://rabbitmqsummit.com
 
 twitter:
   username: RabbitMQSummit
